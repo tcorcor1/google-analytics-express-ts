@@ -2,6 +2,12 @@
 
 <h3 align="center">Designed with Node/Express & TypeScript to demonstrate interaction with Core Reporting API v4</h3>
 
+:construction: :construction: DEPRECATED :construction: :construction:
+
+The Google Analytics v4 Core Reporting API was built for Universal Analytics properties which are now deprecated and will stop collecting data in July 2023. If you wish to continue working with your GA data in your apps you must transition to the [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1).
+
+Should you still be interested in this project, I have created a super simple API that hits this new endpoint and gets your top 50 results. It can be found [here](https://github.com/tcorcor1/google-analytics-ga4-data-api) but be aware their client library is still in beta so if you are reading this some time after writing there is likely an updated package you should install.
+
 ## Getting started
 
 For more information on using this project please see my blog post on [tldr-dynamics.com](https://tldr-dynamics.com/blog/google-analytics-express-typescript).
